@@ -98,6 +98,7 @@ public class Pokemon {
      * @return attackLevel the attack level of the pokemon
      */
     public int getAttackLevel() {
+
         return attackLevel;
     }
     /**
@@ -105,6 +106,7 @@ public class Pokemon {
      * @param attackLvl the attack level to set our Pokemon's attack level to
      */
     public void setAttackLevel(final int attackLvl) {
+
         this.attackLevel = attackLvl;
     }
     /**
@@ -112,6 +114,7 @@ public class Pokemon {
      * @return defenseLevel the defense level of the pokemon
      */
     public int getDefenseLevel() {
+
         return defenseLevel;
     }
     /**
@@ -119,6 +122,7 @@ public class Pokemon {
      * @param defenseLvl the defense level to set our Pokemon's defense level to
      */
     public void setDefenseLevel(final int defenseLvl) {
+
         this.defenseLevel = defenseLvl;
     }
     /**
@@ -126,6 +130,7 @@ public class Pokemon {
      * @return hitPoints the hit points of the pokemon
      */
     public int getHitPoints() {
+
         return this.hitPoints;
     }
     /**
@@ -133,6 +138,7 @@ public class Pokemon {
      * @param hp the hit points to set our Pokemon's hit points to
      */
     public void setHitPoints(final int hp) {
+
         this.hitPoints = hp;
     }
 
@@ -141,6 +147,7 @@ public class Pokemon {
      * @return name the name of the pokemon
      */
     public String getName() {
+
         return this.name;
     }
     /**
@@ -148,6 +155,7 @@ public class Pokemon {
      * @param theName the name to set our Pokemon's name to
      */
     public void setName(final String theName) {
+
         this.name = theName;
     }
 
